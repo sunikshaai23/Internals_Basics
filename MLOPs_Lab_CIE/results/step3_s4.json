@@ -1,0 +1,16 @@
+{
+    "health_endpoint": "/heartbeat",
+    "predict_endpoint": "/predict",
+    "port": 8080,
+    "health_response": {
+        "status": "healthy",
+        "model_loaded": true
+    },
+    "test_input": {
+        "wind_speed_kmph": 23.5,
+        "humidity_pct": 71.3,
+        "payload_mass_kg": 8268.3,
+        "vehicle_type_index": 2
+    },
+    "prediction": 60.91794894667296
+}

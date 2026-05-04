@@ -1,0 +1,21 @@
+{
+    "experiment_name": "launchpredict-countdown-hold-min",
+    "models": [
+        {
+            "name": "SVR",
+            "mae": 11.117654453031312,
+            "rmse": 12.565543593534208,
+            "r2": -0.5142736146314444
+        },
+        {
+            "name": "GradientBoosting",
+            "mae": 9.284317278139438,
+            "rmse": 9.53603345637473,
+            "r2": 0.1278778337459986
+        }
+    ],
+    "best_model": "GradientBoosting",
+    "best_metric_name": "rmse",
+    "best_metric_value": 9.53603345637473,
+    "model_path": "models/best_model.pkl"
+}
